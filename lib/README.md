@@ -60,7 +60,7 @@ amount - The amount of tokens to transfer.
 privateKey - The private key of the sender.
 
 ```js
-const { transfer } = require('./tokenController');
+const { transfer } = require('../lib/main.js');
 
 transfer({
   body: {
@@ -77,8 +77,8 @@ This function gets token information by address.
 Parameters
 publicKey - The public key of the token.
 
-```
-const { getTokenInfo } = require('./tokenController');
+```js
+const { getTokenInfo } = require('../lib/main.js');
 
 getTokenInfo({
   params: {
