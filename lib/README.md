@@ -19,7 +19,7 @@ createToken({
   body: {
     name: 'My Token',
     symbol: 'MTK',
-    icon: 'https://mytoken.com/icon.png',
+    icon: 'https://example.com/icon.png',
     totalSupply: 1000000,
     privateKey: 'my-private-key'
   }
